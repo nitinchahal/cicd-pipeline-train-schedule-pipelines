@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('Buid') {
       steps{
-        echo 'Running Build autoamatsion'
+        echo 'Running Build autoamasdatsion'
         sh' ./gradlew build --no-daemon'
         echo 'Build COmplete'
       }
